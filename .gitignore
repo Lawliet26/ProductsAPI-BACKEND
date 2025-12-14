@@ -1,0 +1,58 @@
+# Python
+*.py[cod]
+*$py.class
+*.so
+.Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+Pipfile.lock
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+/media
+/staticfiles
+/static
+
+# Environment variables
+.env
+.env.local
+*.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Test coverage
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# Migrations (opcional, algunos prefieren versionarlas)
+# */migrations/*.py
+# !*/migrations/__init__.py
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Backup files
+*.bak
+*.tmp
